@@ -1,0 +1,116 @@
+<svg width="900" height="290" viewBox="0 0 900 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes fillBar {
+      from { width: 0px; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .b1 { animation: fillBar 1.4s cubic-bezier(0.22,1,0.36,1) 0.2s both; }
+    .b2 { animation: fillBar 1.4s cubic-bezier(0.22,1,0.36,1) 0.35s both; }
+    .b3 { animation: fillBar 1.4s cubic-bezier(0.22,1,0.36,1) 0.5s both; }
+    .b4 { animation: fillBar 1.4s cubic-bezier(0.22,1,0.36,1) 0.28s both; }
+    .b5 { animation: fillBar 1.4s cubic-bezier(0.22,1,0.36,1) 0.43s both; }
+    .b6 { animation: fillBar 1.4s cubic-bezier(0.22,1,0.36,1) 0.58s both; }
+    .card { animation: fadeIn 0.5s ease-out both; }
+  </style>
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="900" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#030803"/>
+      <stop offset="100%" stop-color="#030a06"/>
+    </linearGradient>
+    <linearGradient id="barL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00ff41"/>
+      <stop offset="100%" stop-color="#00e676"/>
+    </linearGradient>
+    <linearGradient id="barR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00c853"/>
+      <stop offset="100%" stop-color="#69f0ae"/>
+    </linearGradient>
+    <linearGradient id="cDiv" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#00ff41" stop-opacity="0.5"/>
+      <stop offset="75%"  stop-color="#00ff41" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="cdots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.6" fill="#00ff41" opacity="0.14"/>
+    </pattern>
+  </defs>
+
+  <g class="card">
+    <rect width="900" height="290" fill="url(#cBg)"/>
+    <rect width="900" height="290" fill="url(#cdots)"/>
+
+    <!-- border -->
+    <rect x="1" y="1" width="898" height="288" rx="3" fill="none" stroke="#0f2e0f" stroke-width="1.5"/>
+
+    <!-- corner brackets -->
+    <path d="M28 28 L28 58 M28 28 L58 28" stroke="#00ff41" stroke-width="2" stroke-linecap="square"/>
+    <circle cx="28" cy="28" r="2.5" fill="#00ff41"/>
+    <path d="M872 28 L872 58 M872 28 L842 28" stroke="#00ff41" stroke-width="2" stroke-linecap="square"/>
+    <circle cx="872" cy="28" r="2.5" fill="#00ff41"/>
+    <path d="M28 262 L28 232 M28 262 L58 262" stroke="#00ff41" stroke-width="2" stroke-linecap="square"/>
+    <circle cx="28" cy="262" r="2.5" fill="#00ff41"/>
+    <path d="M872 262 L872 232 M872 262 L842 262" stroke="#00ff41" stroke-width="2" stroke-linecap="square"/>
+    <circle cx="872" cy="262" r="2.5" fill="#00ff41"/>
+
+    <!-- identity section -->
+    <!-- row: UNIT -->
+    <text x="44" y="62" font-family="'Courier New', monospace" font-size="9"  fill="#2d6e2d" letter-spacing="2">UNIT</text>
+    <text x="160" y="62" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#e8f5e8">ANH NGO  /  Phuong Anh Ngo</text>
+
+    <!-- row: ARCHETYPE -->
+    <text x="44" y="88" font-family="'Courier New', monospace" font-size="9"  fill="#2d6e2d" letter-spacing="2">ARCHETYPE</text>
+    <text x="160" y="88" font-family="'Courier New', monospace" font-size="13" fill="#00ff41">AI Engineer  ·  Product Owner  ·  Researcher</text>
+
+    <!-- row: CURRENTLY -->
+    <text x="44" y="114" font-family="'Courier New', monospace" font-size="9"  fill="#2d6e2d" letter-spacing="2">CURRENTLY</text>
+    <text x="160" y="114" font-family="'Courier New', monospace" font-size="13" fill="#69f0ae">Product Owner @ BSMLABS</text>
+
+    <!-- divider -->
+    <rect x="32" y="130" width="836" height="1" fill="url(#cDiv)"/>
+
+    <!-- ── LEFT COLUMN STATS ── -->
+    <!-- AGENT SYSTEMS 92% → 184/200 -->
+    <text x="44"  y="154" font-family="'Courier New', monospace" font-size="9.5" fill="#4a8f4a">AGENT SYSTEMS</text>
+    <rect  x="44" y="160" width="200" height="8" rx="3" fill="#0a1e0a"/>
+    <rect class="b1" x="44" y="160" width="184" height="8" rx="3" fill="url(#barL)"/>
+    <text x="252" y="168" font-family="'Courier New', monospace" font-size="9" fill="#00ff41">92</text>
+
+    <!-- LLM / NLP 88% → 176/200 -->
+    <text x="44"  y="194" font-family="'Courier New', monospace" font-size="9.5" fill="#4a8f4a">LLM / NLP</text>
+    <rect  x="44" y="200" width="200" height="8" rx="3" fill="#0a1e0a"/>
+    <rect class="b2" x="44" y="200" width="176" height="8" rx="3" fill="url(#barL)"/>
+    <text x="252" y="208" font-family="'Courier New', monospace" font-size="9" fill="#00ff41">88</text>
+
+    <!-- PRODUCT DESIGN 85% → 170/200 -->
+    <text x="44"  y="234" font-family="'Courier New', monospace" font-size="9.5" fill="#4a8f4a">PRODUCT DESIGN</text>
+    <rect  x="44" y="240" width="200" height="8" rx="3" fill="#0a1e0a"/>
+    <rect class="b3" x="44" y="240" width="170" height="8" rx="3" fill="url(#barL)"/>
+    <text x="252" y="248" font-family="'Courier New', monospace" font-size="9" fill="#00ff41">85</text>
+
+    <!-- ── CENTER VERTICAL DIVIDER ── -->
+    <line x1="450" y1="132" x2="450" y2="268" stroke="#0f2e0f" stroke-width="1"/>
+
+    <!-- ── RIGHT COLUMN STATS ── -->
+    <!-- EVAL HARNESS 80% → 160/200 -->
+    <text x="476" y="154" font-family="'Courier New', monospace" font-size="9.5" fill="#4a8f4a">EVAL HARNESS</text>
+    <rect  x="476" y="160" width="200" height="8" rx="3" fill="#0a1e0a"/>
+    <rect class="b4" x="476" y="160" width="160" height="8" rx="3" fill="url(#barR)"/>
+    <text x="684" y="168" font-family="'Courier New', monospace" font-size="9" fill="#69f0ae">80</text>
+
+    <!-- MLOPS / INFRA 72% → 144/200 -->
+    <text x="476" y="194" font-family="'Courier New', monospace" font-size="9.5" fill="#4a8f4a">MLOPS / INFRA</text>
+    <rect  x="476" y="200" width="200" height="8" rx="3" fill="#0a1e0a"/>
+    <rect class="b5" x="476" y="200" width="144" height="8" rx="3" fill="url(#barR)"/>
+    <text x="684" y="208" font-family="'Courier New', monospace" font-size="9" fill="#69f0ae">72</text>
+
+    <!-- BLOCKCHAIN AI 60% → 120/200 -->
+    <text x="476" y="234" font-family="'Courier New', monospace" font-size="9.5" fill="#4a8f4a">BLOCKCHAIN AI</text>
+    <rect  x="476" y="240" width="200" height="8" rx="3" fill="#0a1e0a"/>
+    <rect class="b6" x="476" y="240" width="120" height="8" rx="3" fill="url(#barR)"/>
+    <text x="684" y="248" font-family="'Courier New', monospace" font-size="9" fill="#69f0ae">60</text>
+  </g>
+</svg>

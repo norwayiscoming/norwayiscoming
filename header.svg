@@ -1,0 +1,94 @@
+<svg width="900" height="200" viewBox="0 0 900 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 8px rgba(0,255,65,0.8)) drop-shadow(0 0 22px rgba(0,255,65,0.35)); }
+      50%       { filter: drop-shadow(0 0 14px rgba(0,255,65,1))  drop-shadow(0 0 36px rgba(0,255,65,0.55)); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes cornerPulse {
+      0%, 100% { opacity: 0.6; }
+      50%      { opacity: 1; }
+    }
+    @keyframes scanline {
+      0%   { transform: translateY(0px); opacity: 0; }
+      10%  { opacity: 0.04; }
+      90%  { opacity: 0.04; }
+      100% { transform: translateY(200px); opacity: 0; }
+    }
+    .name    { animation: glow 3s ease-in-out infinite, fadeUp 0.6s ease-out both; }
+    .sub     { animation: fadeUp 0.6s ease-out 0.3s both; }
+    .corners { animation: cornerPulse 3s ease-in-out infinite; }
+    .scan    { animation: scanline 6s linear infinite; }
+  </style>
+  <defs>
+    <linearGradient id="hBg" x1="0" y1="0" x2="900" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#020802"/>
+      <stop offset="50%"  stop-color="#050d05"/>
+      <stop offset="100%" stop-color="#020a08"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00ff41"/>
+      <stop offset="50%"  stop-color="#a8ff78"/>
+      <stop offset="100%" stop-color="#00ff41"/>
+    </linearGradient>
+    <linearGradient id="hLine" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#00ff41" stop-opacity="0.8"/>
+      <stop offset="70%"  stop-color="#00ff41" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="hdots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.6" fill="#00ff41" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="200" fill="url(#hBg)"/>
+  <rect width="900" height="200" fill="url(#hdots)"/>
+
+  <!-- scanline effect -->
+  <rect class="scan" x="0" y="-30" width="900" height="30" fill="#00ff41"/>
+
+  <!-- edge lines -->
+  <rect x="0"   y="0"   width="900" height="1.5" fill="url(#hLine)"/>
+  <rect x="0"   y="198.5" width="900" height="1.5" fill="url(#hLine)"/>
+
+  <!-- corner brackets -->
+  <g class="corners">
+    <path d="M32 32 L32 66 M32 32 L66 32" stroke="#00ff41" stroke-width="2.5" stroke-linecap="square"/>
+    <circle cx="32" cy="32" r="3" fill="#00ff41"/>
+    <path d="M868 32 L868 66 M868 32 L834 32" stroke="#00ff41" stroke-width="2.5" stroke-linecap="square"/>
+    <circle cx="868" cy="32" r="3" fill="#00ff41"/>
+    <path d="M32 168 L32 134 M32 168 L66 168" stroke="#00ff41" stroke-width="2.5" stroke-linecap="square"/>
+    <circle cx="32" cy="168" r="3" fill="#00ff41"/>
+    <path d="M868 168 L868 134 M868 168 L834 168" stroke="#00ff41" stroke-width="2.5" stroke-linecap="square"/>
+    <circle cx="868" cy="168" r="3" fill="#00ff41"/>
+  </g>
+
+  <!-- name -->
+  <text class="name"
+    x="450" y="108"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="70"
+    font-weight="bold"
+    letter-spacing="12"
+    fill="url(#nameGrad)">ANH NGO</text>
+
+  <!-- divider -->
+  <rect x="170" y="122" width="560" height="1" fill="url(#hLine)"/>
+
+  <!-- subtitle -->
+  <text class="sub"
+    x="450" y="151"
+    text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="12"
+    letter-spacing="4.5"
+    fill="#4a8f4a">AI ENGINEER  ·  PRODUCT OWNER  ·  AI RESEARCHER</text>
+
+  <text x="44"  y="188" font-family="'Courier New', monospace" font-size="8" fill="#00ff41" opacity="0.3" letter-spacing="2">NORWAYISCOMING</text>
+  <text x="856" y="188" text-anchor="end" font-family="'Courier New', monospace" font-size="8" fill="#00ff41" opacity="0.3" letter-spacing="2">GITHUB.COM</text>
+</svg>

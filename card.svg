@@ -60,7 +60,7 @@
 
     <!-- UNIT -->
     <text x="48" y="68"  font-family="'Courier New', monospace" font-size="11" fill="#2d6e2d" letter-spacing="2">UNIT</text>
-    <text x="190" y="68" font-family="'Courier New', monospace" font-size="17" font-weight="bold" fill="#e8f5e8">ANH NGO  /  Phuong Anh Ngo</text>
+    <text x="190" y="68" font-family="'Courier New', monospace" font-size="17" font-weight="bold" fill="#e8f5e8">Anh Ngo  /  Norway</text>
 
     <!-- ARCHETYPE -->
     <text x="48" y="102" font-family="'Courier New', monospace" font-size="11" fill="#2d6e2d" letter-spacing="2">ARCHETYPE</text>

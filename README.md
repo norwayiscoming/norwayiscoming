@@ -18,10 +18,9 @@
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│   UNIT       ANH NGO  /  Phuong Anh Ngo                        │
-│   CLASS      ★ TRIPLE — AI Engineer × Product Owner × Researcher│
-│   BASE       Hanoi University of Science, VNU  ·  CS '25        │
-│   STATUS     ⚡ Shipping  ·  🧠 Researching  ·  🏗 Architecting │
+│   UNIT        ANH NGO  /  Phuong Anh Ngo                        │
+│   ARCHETYPE   AI Engineer  ·  Product Owner  ·  Researcher      │
+│   CURRENTLY   Product Owner @ BSMLABS                          │
 │                                                                 │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │

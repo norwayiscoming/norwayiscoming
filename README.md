@@ -56,7 +56,7 @@ $ cat expertise.log
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=norwayiscoming&hide_border=true&background=030803&ring=00ff41&fire=00e676&currStreakLabel=00ff41&sideLabels=c8e6c9&dates=4a8f4a&stroke=0f2e0f"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=norwayiscoming&hide_border=true&background=030803&ring=00ff41&fire=00e676&currStreakNum=ffffff&currStreakLabel=00ff41&sideNums=e8f5e8&sideLabels=c8e6c9&dates=69f0ae&stroke=0f2e0f"/>
 
 <br/><br/>
 

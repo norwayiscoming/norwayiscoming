@@ -23,51 +23,42 @@
 
 ---
 
-## `$ ls skills/`
-
 ```
-./llm-agents/      langchain · langgraph · vllm · openai-api · claude · gemini
-./nlp-research/    pytorch · sft · rlhf · dora · rag-pipelines · milvus · eval-harness
-./backend/         python · fastapi · docker · n8n · postgresql · redis
-./blockchain-ai/   bnb-chain · on-chain-agent-wallets · defi-ai · bonding-curves
-./product/         system-architecture · prompt-engineering · tool-schema-design · agent-harness
-```
+$ ls skills/
 
----
-
-## `$ cat expertise.log`
-
-```
-[MASTERED]   Multi-agent systems  —  Planner-Executor, Human-in-the-Loop, tool routing
-[MASTERED]   Agent harness design  —  tool schema, allowed-action policies, audit logging
-[MASTERED]   RAG pipelines  —  chunking · retrieval · re-ranking · structured output
-[MASTERED]   LLM evaluation  —  golden test cases, deterministic sampling, confidence intervals
-[RESEARCHED] GEO (Generative Engine Optimization)  —  original methodology, 50+ LLM ranking factors
-[RESEARCHED] Cognitive diagnosis  —  IRT, DINA, mastery estimation + confidence calibration
-[ACTIVE]     GitHub-native platform architecture  —  Issues as CRM, GitHub ACL as RBAC
-[ACTIVE]     BSM Superpowers @ BSMLABS  —  agent runtime wrapping Claude Code via OpenACP
+  ./llm-agents/      langchain · langgraph · vllm · openai-api · claude · gemini
+  ./nlp-research/    pytorch · sft · rlhf · dora · rag-pipelines · milvus · eval-harness
+  ./backend/         python · fastapi · docker · n8n · postgresql · redis
+  ./blockchain-ai/   bnb-chain · on-chain-agent-wallets · defi-ai · bonding-curves
+  ./product/         system-architecture · prompt-engineering · tool-schema-design · agent-harness
 ```
 
 ---
 
-## `$ github-stats --user norwayiscoming`
+```
+$ cat expertise.log
+
+  [MASTERED]   Multi-agent systems  —  Planner-Executor, Human-in-the-Loop, tool routing
+  [MASTERED]   Agent harness design  —  tool schema, allowed-action policies, audit logging
+  [MASTERED]   RAG pipelines  —  chunking · retrieval · re-ranking · structured output
+  [MASTERED]   LLM evaluation  —  golden test cases, deterministic sampling, confidence intervals
+  [RESEARCHED] GEO (Generative Engine Optimization)  —  original methodology, 50+ LLM ranking factors
+  [RESEARCHED] Cognitive diagnosis  —  IRT, DINA, mastery estimation + confidence calibration
+  [ACTIVE]     GitHub-native platform architecture  —  Issues as CRM, GitHub ACL as RBAC
+  [ACTIVE]     BSM Superpowers @ BSMLABS  —  agent runtime wrapping Claude Code via OpenACP
+```
+
+---
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=norwayiscoming&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=030803&title_color=00ff41&icon_color=00e676&text_color=c8e6c9&ring_color=00ff41"/>
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=norwayiscoming&layout=compact&hide_border=true&bg_color=030803&title_color=00ff41&text_color=c8e6c9"/>
+<img src="https://github-profile-trophy.vercel.app/?username=norwayiscoming&theme=matrix&no-frame=true&no-bg=true&column=6&margin-w=6"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=norwayiscoming&hide_border=true&background=030803&ring=00ff41&fire=00e676&currStreakLabel=00ff41&sideLabels=c8e6c9&dates=4a8f4a&stroke=0f2e0f"/>
 
-</div>
-
----
-
-## `$ git log --oneline --graph`
-
-<div align="center">
+<br/><br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=norwayiscoming&bg_color=030803&color=00ff41&line=00c853&point=69f0ae&area=true&area_color=00ff41&hide_border=true"/>
 

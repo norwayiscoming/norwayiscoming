@@ -21,7 +21,6 @@
 │   UNIT       ANH NGO  /  Phuong Anh Ngo                        │
 │   CLASS      ★ TRIPLE — AI Engineer × Product Owner × Researcher│
 │   BASE       Hanoi University of Science, VNU  ·  CS '25        │
-│   GUILD      BSMLABS  (prev: LAB3, ACROSS LAB — IRD France)     │
 │   STATUS     ⚡ Shipping  ·  🧠 Researching  ·  🏗 Architecting │
 │                                                                 │
 ├─────────────────────────────────────────────────────────────────┤

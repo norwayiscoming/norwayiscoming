@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=14&duration=2000&pause=1200&color=00FF41&center=true&vCenter=true&width=680&lines=~/norwayiscoming+%24+whoami;Building+agent+systems+that+actually+ship.;LLMs+%2B+Products+%2B+Research+—+all+three%2C+no+tradeoff.;Currently+%40+BSMLABS+—+still+grinding." alt="Typing" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=14&duration=2000&pause=1200&color=00FF41&center=true&vCenter=true&width=680&lines=~/norwayiscoming+%24+whoami;Building+agent+systems+that+actually+ship.;LLMs+%2B+Products+%2B+Research+—+all+three%2C+no+tradeoff.;Currently+%40++—+still+grinding." alt="Typing" />
 
 <br/>
 

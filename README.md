@@ -8,7 +8,7 @@
 
 <br/>
 
-![](https://img.shields.io/badge/VinSmartFuture VFS-Product%20Owner-00ff41?style=flat-square&labelColor=030803)
+![](https://img.shields.io/badge/VinSmartFuture-VFS-Product%20Owner-00ff41?style=flat-square&labelColor=030803)
 ![](https://img.shields.io/badge/HF-Phanh2532-00c853?style=flat-square&labelColor=030803)
 ![](https://img.shields.io/badge/Open%20to%20Work-yes-69f0ae?style=flat-square&labelColor=030803)
 [![](https://img.shields.io/github/followers/norwayiscoming?label=followers&style=flat-square&color=00ff41&labelColor=030803)](https://github.com/norwayiscoming?tab=followers)
